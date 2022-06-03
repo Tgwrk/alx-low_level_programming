@@ -11,10 +11,10 @@ int main(void)
 			srand(time(0));
 				n = rand() - RAND_MAX / 2;
 					if(n>0)
-						printf("The random number", n + " is greater than 0");
+						printf("The random number "+ n + " is greater than 0");
 					else if(n<0)
-						printf("The random number", n + " is less than 0");
+						printf("The random number "+ n + " is less than 0");
 					else 
-						printf("The random number" + n + " is 0");		
+						printf("The random number " + n + " is 0");		
 					return (0);
 }
