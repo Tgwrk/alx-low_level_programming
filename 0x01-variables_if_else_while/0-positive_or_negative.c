@@ -6,15 +6,16 @@
  */
 int main(void)
 {
-		int n;
+	int n;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
 
-			srand(time(0));
-				n = rand() - RAND_MAX / 2;
-					if(n>0)
-						printf("The random number "+ n + " is greater than 0");
-					else if(n<0)
-						printf("The random number "+ n + " is less than 0");
-					else 
-						printf("The random number " + n + " is 0");		
-					return (0);
+	if(n>0)
+		printf("%d The random number "+ n + " %d is greater than 0\n");
+	else if(n<0)
+		printf("%d The random number "+ n + " %d is less than 0\n");
+	else
+		printf("%d The random number " + n + " %d is 0\n");
+		
+	return (0);
 }
