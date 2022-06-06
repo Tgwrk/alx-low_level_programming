@@ -1,23 +1,22 @@
 #include <stdio.h>
-
+#include <stdlib.h>
 /**
- * main - Returns all lowercase alphabets except for e and q
+ * main - print lowercase alphabets except for e and q
  *
- * Return : 0
+ * Return:0
  */
 
 int main(void)
 {
-	char ch;
+	int i;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (i = 97; i <= 122; i++)
 	{
-		if (ch == 'e' || ch == 'q')
+		if (i == 101 || i == 113)
 			continue;
 		else
-			putchar(ch);
+			putchar(i);
 	}
-
 	putchar ('\n');
 	return (0);
 }
