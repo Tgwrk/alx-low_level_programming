@@ -17,15 +17,15 @@ int main(void)
 
 	if (n > 0)
 	{
-		printf("%d The random number is greater than 0 \n", n);
+		printf(n, "%d is greater than 0 \n");
 	}
 	else if (n == 0)
 	{
-		printf("%d The random number is 0 \n", n);
+		printf(n, "%d The random number is 0 \n");
 	}
 	else
 	{
-		printf("%d The random number is negative \n", n);
+		printf(n, "%d The random number is negative \n");
 	}
 	return (0);
 }
