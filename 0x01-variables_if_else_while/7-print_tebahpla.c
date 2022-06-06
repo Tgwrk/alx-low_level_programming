@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-	int alphabet;
+	int i;
 
-	for (alphabet = 'z'; alphabet >= 'a'; alphabet--)
+	for (i = 122; i >= 97; i--)
 	{
-		putchar(alphabet);
-		putchar('\n');
+		putchar(i);
 	}
+	putchar('\n');
 	return (0);
 }
