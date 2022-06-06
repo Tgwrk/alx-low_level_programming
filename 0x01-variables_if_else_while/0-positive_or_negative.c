@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * more headers goes there
- * betty style doc for function main goes there
- * to check if random number is positive,negative, or zero.
- */
+ * main - Check sign on int
+ *
+ * Return: 0
+*/
 int main(void)
 {
 
