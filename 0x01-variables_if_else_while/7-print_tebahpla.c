@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints the lowercase alphabets in reverse order
+ * main - Returns the lowercase alphabets in reverse order
  *
  * Return : 0
  */
