@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints all except q and e
+ * main - Returns all lowercase alphabets except for e and q
  *
  * Return : 0
  */
@@ -9,6 +9,7 @@
 int main(void)
 {
 	char ch;
+
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
 		if (ch == 'e' || ch == 'q')
@@ -17,6 +18,6 @@ int main(void)
 			putchar(ch);
 	}
 
-	putchar('\n');
-	return(0);
+	putchar ('\n');
+	return (0);
 }
