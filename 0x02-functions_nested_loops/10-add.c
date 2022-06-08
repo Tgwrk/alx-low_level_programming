@@ -2,19 +2,12 @@
 
 /**
  * add - finds the sum of two numbers
- * @num1 - parameter
- * @num2 - parameter
+ * @x : parameter1
+ * @y : parameter2
  * Return:0
  */
 
-int add(int num1, int num2)
+int add(int x, int y)
 {
-	int num1, num2;
-
-	_putchar(num1);
-	_putchar(num2);
-	add = num1 + num2;
-
-	_putchar(add);
-	_putchar('\n');
+	return (x + y);
 }
