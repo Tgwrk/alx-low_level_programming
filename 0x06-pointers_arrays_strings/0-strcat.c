@@ -1,5 +1,5 @@
 #include "main.h"
-#include <string.h>
+
 
 /**
  * _strcat - this a function strcat
@@ -18,7 +18,7 @@ char *_strcat(char *dest, char *src)
 	for (i = 0; src[i] != 0; i++)
 	{
 		dest[len] = src[i];
-		len = len + 1;
+		len += 1;
 	}
 
 	dest[len] = '\0';
